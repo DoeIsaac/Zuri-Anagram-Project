@@ -17,6 +17,6 @@ def find_anagram(word, anagram):
     else:
         return False
 
-word = input("Enter word: ")
+word = input("Enter first word: ")
 anagram = input("Enter next word: ")
 print(find_anagram(word, anagram))
